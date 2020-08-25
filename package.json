@@ -10,7 +10,7 @@
     "test:watch": "jest --watch",
     "lint": "eslint . --max-warnings=0",
     "storybook": "start-storybook -s ./public -p 6006",
-    "build-storybook": "build-storybook"
+    "build:storybook": "build-storybook -s ./public"
   },
   "dependencies": {
     "next": "9.5.2",
