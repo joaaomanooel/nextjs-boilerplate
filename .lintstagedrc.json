@@ -1,6 +1,7 @@
 {
   "*.ts": [
     "eslint . --fix",
+    "jest --findRelatedTests --bail",
     "git add"
   ]
 }
